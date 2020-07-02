@@ -1,0 +1,7 @@
+test_tup1 = ('PYTHON', 'is', 'awesome') 
+test_tup2 = (1, 2, 3) 
+print("The tuple is : " + str(test_tup1)) 
+
+print("The value of tuple is : " + str(test_tup2))
+res = {test_tup1[i] : test_tup2[i] for i, _ in enumerate(test_tup2)} 
+print("Dictionary constructed from tuples : " + str(res)) 
